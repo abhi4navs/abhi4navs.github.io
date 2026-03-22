@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>abhinav@devops:~$</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- Title bar -->
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot r"></div>
+      <div class="dot y"></div>
+      <div class="dot g"></div>
+    </div>
+    <div class="tb-mid">abhinav@devops — zsh — 96×28</div>
+    <div class="tb-r" id="clk"></div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active"><span class="tdot"></span>&nbsp;~/portfolio</div>
+    <div class="tab" style="font-size:17px;padding:0 12px;line-height:1;">+</div>
+  </div>
+
+  <!-- Terminal output area -->
+  <div id="out"></div>
+
+  <!-- Input row -->
+  <div class="irow">
+    <span class="ps1">
+      <span class="u">abhinav</span><span class="a">@</span><span class="h">devops</span><span class="c">:</span><span class="p">~</span><span class="d"> $</span>
+    </span>
+    <input id="inp" type="text" autocomplete="off" autocorrect="off"
+           autocapitalize="off" spellcheck="false" placeholder="type 'help' ...">
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
